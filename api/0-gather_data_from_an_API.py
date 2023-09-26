@@ -33,7 +33,7 @@ def todo_list_progress(employee_id):
     completed_task = 0
     for todo in todos:
         if (todo['completed']):
-                completed_task += 1;
+            completed_task += 1
     Terminado = completed_task;
     """imprimer las tareas y las tareas completadas del empleado"""
     print("Employee {} is done with tasks({}/{}):".format(Employe['name'],Terminado, task));
